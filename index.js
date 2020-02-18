@@ -22,10 +22,6 @@ function appendDriver(name) {
   driversCopy.push(name);
 }
 
-function appendDriver (name) {
-  return [...drivers, name];
-}
-
 function prependDriver (name) {
   return [name, ...drivers];
 }
