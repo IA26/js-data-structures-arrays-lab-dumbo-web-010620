@@ -2,6 +2,12 @@
 let drivers = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendDriver(name) {
+  
+  let newDrivers = drivers.splice();
   drivers.push(name);
-  drivers.unShift
+  drivers.unshift(name);
+  drivers.pop(name);
+  drivers.shift(name); 
+  
+  
 }
