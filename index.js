@@ -21,3 +21,15 @@ function appendDriver(name) {
   driversCopy = drivers.splice()
   drivers.push(name)
 }
+
+function prependDriver(name) {
+  
+}
+
+function removeLastDriver() {
+  
+}
+
+function removeFirstDriver() {
+  
+}
